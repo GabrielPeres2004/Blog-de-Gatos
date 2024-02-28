@@ -21,10 +21,11 @@
 
 body{
     text-align: center;
-    background: white;
+    background: var(--color-base-background);
+    
 }
 
-@media screen and (max-width:599px){
+@media screen and (max-width:1023px){
 
     header{
         max-width: 100%;   
@@ -33,7 +34,6 @@ body{
         display: flex;
         align-items: center;
         gap: 2.4rem;
-        background: var(--color-base-background);
     }
         
         
@@ -86,6 +86,7 @@ body{
     }
     
     main section{
+        background: white;
         padding: 3.2rem 2.4rem ;
         display: flex;
         justify-content: flex-start;
@@ -124,6 +125,7 @@ body{
         line-height: 160%;
     }
 
+    
 
 
 
