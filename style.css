@@ -22,13 +22,14 @@
 body{
     text-align: center;
     background: var(--color-base-background);
+    max-width: 1023px;
     
 }
 
 @media screen and (max-width:1023px){
 
     header{
-        max-width: 100%;   
+        width: 100%;   
         overflow: hidden;
         padding: 1.6rem 2.4rem;
         display: flex;
@@ -50,8 +51,8 @@ body{
     }
     
     .input-wrapper label{
-        width: 1px;
-        height: 1px;
+        width: .1rem;
+        height: .1rem;
         position: absolute;
         overflow: hidden;
     }
@@ -81,12 +82,16 @@ body{
         height: 4.2rem;
     }
     
+    main{
+        background: white;
+    }
+
+
     main #cat{
-        min-width: 100%;
+        width: 100%;
     }
     
     main section{
-        background: white;
         padding: 3.2rem 2.4rem ;
         display: flex;
         justify-content: flex-start;
