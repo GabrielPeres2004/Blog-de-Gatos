@@ -25,7 +25,7 @@ body{
     
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:767px){
 
     header{
         width: 100%;   
@@ -106,6 +106,13 @@ body{
         
         
     }
+
+    .subtitle{
+        color: var(--color-base-subtitle);
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 160%;
+    }
     
     main div{
         margin: 3.2rem 0;
@@ -122,12 +129,6 @@ body{
     }
         
     
-    .subtitle{
-        color: var(--color-base-subtitle);
-        font-size: 1.6rem;
-        font-weight: 400;
-        line-height: 160%;
-    }
 
     sidebar section{
         background: white;
@@ -148,6 +149,11 @@ body{
        align-items: center;
        margin-top: 3.2rem;
        
+    }
+
+    .itens img{
+        width: 100%;
+        overflow:hidden ;
     }
 
     .detalhes {
@@ -194,8 +200,9 @@ body{
     color: white;
     align-items: center;
     padding: 1.6rem 2.4rem;
+}
+    
 
-   }
 
 
 }
